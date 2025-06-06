@@ -8,3 +8,7 @@ class Parts(BaseModel):
     parts:List[Text]
 class Content(BaseModel):
     contents:List[Parts]
+
+#weather payload
+class Weather(BaseModel):
+    q: str
